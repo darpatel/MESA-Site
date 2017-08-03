@@ -405,7 +405,6 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -429,6 +428,9 @@ footer ul li a.active {
 }
 .bg-primary {
   background: #1f2e35;
+}
+.bg-secondary {
+  background: #a41e35;
 }
 .text-primary {
   color: #fdca9e;
@@ -459,6 +461,10 @@ footer ul li a.active {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+}
+.btn-square {
+    border-radius: 0px;
+    margin-top: 50px;
 }
 ::-moz-selection {
   color: white;
