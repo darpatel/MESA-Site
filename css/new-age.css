@@ -426,11 +426,14 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
-.bg-primary {
+.bg-blue {
   background: #1f2e35;
 }
-.bg-secondary {
+.bg-red {
   background: #a41e35;
+}
+.bg-grey {
+  background: #313d42;
 }
 .text-primary {
   color: #fdca9e;
