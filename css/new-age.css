@@ -68,9 +68,9 @@ a:focus {
 }
 hr {
   max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
+  margin: auto;
+  width: 50%;
+  border-color: #a41e35;
 }
 hr.light {
   border-color: white;
@@ -464,6 +464,9 @@ footer ul li a.active {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+}
+.btn-vcenter {
+    vertical-align: middle;
 }
 .btn-square {
     border-radius: 0px;
