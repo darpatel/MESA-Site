@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<video autoplay loop id="video-background" plays-inline>
+<video autoplay muted loop id="video-background" plays-inline>
   <source src="img/philly.mp4" type="video/mp4">
 </video>
     
@@ -28,6 +28,10 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.css" rel="stylesheet">
+    
+    <!-- Odometer -->
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css"/>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,7 +100,7 @@
         </div>
     </header>
 
-    <section id="mis" class="features bg-red" style="padding-top: 20px;padding-bottom: 20px;">
+    <section class="features bg-red" style="padding-top: 20px;padding-bottom: 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 text-center">
@@ -114,9 +118,8 @@
         <div class="container">
         <div class="row">
                 <div class="col-md-8">
-                    <h2 class="section-heading">About Us</h2>
-                    <p>Temple's STEM Education and Pennsylvania MESA initiatives offer K-12 students access to programs designed to prepare students for academic and professional careers in mathematics, engineering, science, and technology.</p>
-                    <p>Our strength is rooted in our network of regional partners, STEMs from our teacher and school leadership personnel, and blossoms in the growth and development of our students.</p>     
+                    <h2 class="section-heading">Who we are</h2>
+                    <p>The Pennsylvania MESA is part of the 10-state MESA USA network <a target="_blank" href="http://www.mesausa.org/">(www.mesausa.org)</a> which serves 50,000 students in grades K-12 including community college students. PA MESA is licensed by the University of California to Temple University which sponsors the initiative at the College of Engineering in the Department of STEM Education, Outreach and Research. Dedicated staff, engineering students and volunteers from a wide variety of science, technology, engineering and math backgrounds guide pre-college students through programs that increase knowledge about careers that support the world's critical infrastructure - access to clean water, nutritious food, healthy living and renewable energy.</p>     
                 </div>
                 <div class="col-md-4">
                     <img class="img-responsive" src="img/polka-y-bg.png">
@@ -126,21 +129,148 @@
             <h3>In Partnership with</h3>
         </div>
         <div class="row">
+            <div class="row pad" style="margin-top:30px;">
             <div class="col-sm-4">
                 <a href="https://www.firstinspires.org/" target="_blank">
-                <img style="height:15vh;margin-top:30px;" class="img-responsive" src="img/first.png" alt="FIRST">
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="https://www.navsup.navy.mil/public/navsup/home/" target="_blank">
-                <img style="height:15vh;margin-top:30px;" class="img-responsive" src="img/navsup.svg" alt="NAVSUP">
+                <img style="width:25vh;" class="img-responsive" src="img/chubb_logo_white.png" alt="Chubb">
                 </a>
             </div>
             <div class="col-sm-4">
                 <a href="http://engineering.temple.edu/" target="_blank">
-                <img style="height:15vh;margin-top:30px;" class="img-responsive" src="img/templew.png" alt="Temple Univeristy">
+                <img style="width:45vh;" class="img-responsive" src="img/templew.png" alt="Temple Univeristy">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.navsup.navy.mil/public/navsup/home/" target="_blank">
+                <img style="width:25vh;" class="img-responsive" src="img/wm.png" alt="WasteManagentment">
                 </a>
             </div>    
+        </div>
+            <div class="row pad" style="margin-top:30px;">
+            <div class="col-sm-4">
+                <a href="https://www.firstinspires.org/" target="_blank">
+                <img style="width:25vh;" class="img-responsive" src="img/drexel.png" alt="Drexel University">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://engineering.temple.edu/" target="_blank">
+                <img style="width:45vh;" class="img-responsive" src="img/harrisburg.png" alt="Harrisburg Univeristy">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.navsup.navy.mil/public/navsup/home/" target="_blank">
+                <img style="width:25vh;" class="img-responsive" src="img/pitt_logo.png" alt="University of Pittsburg">
+                </a>
+            </div>    
+        </div>
+            <div class="row pad" style="margin-top:30px;">
+            <div class="col-sm-4">
+                <a href="https://www.firstinspires.org/" target="_blank">
+                <img style="width:25vh;" class="img-responsive" src="img/Pall_Corporation.svg.png" alt="Pall Corp">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://engineering.temple.edu/" target="_blank">
+                <img style="width:45vh;" class="img-responsive" src="img/phillyschool.png" alt="School District of Philadelphia">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.navsup.navy.mil/public/navsup/home/" target="_blank">
+                <img style="width:25vh;" class="img-responsive" src="img/STEM-CONNECTOR-non-mod-ORG-1.jpg" alt="STEMConnector">
+                </a>
+            </div>    
+        </div>
+        </div>
+        <div class="row">
+                <div class="col-md-8 col-lg-offset-2 text-center ">
+                    <h2 class="section-heading">What we do</h2>
+                    <p>The Pennsylvania MESA is part of the 10-state MESA USA network <a target="_blank" href="http://www.mesausa.org/">(www.mesausa.org)</a> which serves 50,000 students in grades K-12 including community college students. PA MESA is licensed by the University of California to Temple University which sponsors the initiative at the College of Engineering in the Department of STEM Education, Outreach and Research. Dedicated staff, engineering students and volunteers from a wide variety of science, technology, engineering and math backgrounds guide pre-college students through programs that increase knowledge about careers that support the world's critical infrastructure - access to clean water, nutritious food, healthy living and renewable energy.</p>     
+                </div>
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+      <section id="b1" class="download text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Enroll in year round Saturday Academies in engineering and computer science led by Temple adjunct faculty</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+                            <div class="item">
+      <section id="b2" class="download text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Register for summer camp for middle and high school students</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+                            <div class="item">
+      <section id="ballooning" class="download text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Host after-school clubs  that rely on creativity and teamwork to solve humanity's  "grand challenges"</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+                            <div class="item">
+      <section id="quadcopter" class="download text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Use the published MESA curriculum to foster teacher co-curricular planning, collaboration and confidence</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+                            
+                            <div class="item">
+      <section id="quadcopter" class="download text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>The annual kick off event is in October of each year. Schools can sponsor one team, or an intramural league that works on applying science, math, literacy, creativity and design thinking for immediate or future challenges. Participating in regional or national MESA competitions is strongly encouraged as a goal that sets high expectations. In the past five years, PA MESA has served nearly 4,000 students from the greater Philadelphia area through workshops, outreach and dedicated programs on campus and after school.  In addition, we've helped two dozen undergraduate engineering students graduate by creating work-study jobs serving as MESA mentors!</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+                        </div>
+                        
+                        <!-- Left and right controls ->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a> -->
+                    </div>
+                </div>
         </div>
         </div>
     </section>
@@ -148,24 +278,38 @@
     <section id="mis" class="features bg-red">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <!--<div class="col-lg-8 col-lg-offset-2 text-center">
                     <div>
                         <h2>Our Mission</h2>
                     <div class="row">
-                        <div class="col-md-6">
-                            <h4>Our purpose is to engage students who are underrepresented in STEM fields, and motivate them to persist in these lucrative, high demand careers. We have two strategic approaches.</h4>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Provide engineering education through the MESA initiative, including resources, training, mentors and technical assistance to help create engineering and technology clubs after-school.</h4>
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <h4>Secure public and private resources to advance competitive academics to increase the number of engineers, scientists, mathematicians, and related professionals at technical and management levels, and encourage and assist minorities and females in achieving success in these fields
+                            </h4>
                         </div>
                     </div>
+                        <h2>Our Vision</h2>
                     <div class="row">
-                        <div class="col-md-6">
-                            <h4>Create pilot programs, test for relevance and effectiveness, offer as specialized Saturday Academies and Summer camps, and ACT 48 Teacher Professional Development.</h4>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>We’ve successfully incubated programs in bio-medical research, computer science, naval engines, bio-engineering, Navy logistics and music and technology.</h4>
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <h4>Contribute to a competitive global workforce by increasing the yield and diversity of STEM graduates in Pennsylvania who follow various education and training pathways.</h4>
                         </div>    
+                    </div>
+                    </div>
+                </div>-->
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="col-md-6 text-center">
+                    <div class="row">
+                        <h2>Our Mission</h2>
+                    </div>
+                    <div class="row">
+                        <h4>Secure public and private resources to advance competitive academics to increase the number of engineers, scientists, mathematicians, and related professionals at technical and management levels, and encourage and assist minorities and females in achieving success in these fields</h4>
+                    </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                    <div class="row">
+                        <h2>Our Vision</h2>
+                    </div>
+                    <div class="row">
+                        <h4>Contribute to a competitive global workforce by increasing the yield and diversity of STEM graduates in Pennsylvania who follow various education and training pathways.</h4>
                     </div>
                     </div>
                 </div>
@@ -175,6 +319,7 @@
     
     <section id="programs" class="contact video-background">
         <div class="container">
+            <h2 id="odometer" class="odometer foo">001</h2>
             <h2>Our Programs</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -264,6 +409,20 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+    
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.foo');
+    sr.reveal('.bar');
+    </script>
+    
+    <script>
+    setTimeout(function(){
+    odometer.innerHTML = 1200000;
+    }, 1000);
+    </script>
 
 </body>
 

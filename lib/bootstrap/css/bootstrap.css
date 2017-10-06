@@ -1103,7 +1103,7 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1123,7 +1123,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto
+  margin: 0 auto;
+  vertical-align: middle;
 }
 .img-rounded {
   border-radius: 6px;

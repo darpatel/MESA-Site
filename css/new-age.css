@@ -16,7 +16,6 @@ Gill Sands                    |
 Quicksand                     |
 ------------------------------|
 */
-
 #video-background { 
     position: fixed;
     top: 50%;
@@ -60,11 +59,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdca9e;
+  color: #b23a4a;
 }
 a:hover,
 a:focus {
-  color: #fdca9e;
+  color: white;
 }
 hr {
   max-width: 100px;
@@ -91,7 +90,7 @@ p {
   margin-bottom: 20px;
 }
 .navbar-default {
-  background-color: white;
+  background-color: rgba(255,255,255, 0.75) ;
   border-color: rgba(34, 34, 34, 0.05);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
